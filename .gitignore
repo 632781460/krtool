@@ -1,0 +1,55 @@
+# node.js / npm
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules
+
+.tags
+npm-debug.log
+
+
+# misc / editors
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.nide
+*.iml
+
+# bower components
+src/components
+src/test/components
+
+
+# Test
+coverage.html
+test-results.xml
+report-html
+karma_html
+
+# Grunt
+.tmp
+/dist
+
+# Base
+coverage
+apidoc
+src/scripts/templates.js
+src/templates/company/overview/industry-views.html___jb_old___
+src/scripts/controllers/index.js
+src/scripts/directives/index.js
+src/scripts/filters/index.js
+src/scripts/services/index.js
+src/navigation/dist/navigation.js
+src/scripts/build/*.*
