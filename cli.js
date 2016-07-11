@@ -15,6 +15,6 @@ let changelogStream = fs.createWriteStream(changelogPath);
 console.log(changelogPath);
 conventionalChangelog({
     preset: 'angular',
-    releaseCount: 1,
-    append: true
+    releaseCount: 0,
+    version: '1.0.0'
 }).pipe(changelogStream);
