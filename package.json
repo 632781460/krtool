@@ -14,7 +14,9 @@
   "dependencies": {
     "commander": "^2.9.0",
     "conventional-changelog": "^1.1.0",
+    "conventional-recommended-bump": "^0.2.1",
     "find-root": "^1.0.0",
+    "jsonfile": "^2.3.1",
     "q": "^1.4.1",
     "semver": "^5.2.0",
     "simple-git": "^1.41.0"
