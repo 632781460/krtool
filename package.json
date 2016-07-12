@@ -16,6 +16,7 @@
     "conventional-changelog": "^1.1.0",
     "find-root": "^1.0.0",
     "q": "^1.4.1",
-    "semver": "^5.2.0"
+    "semver": "^5.2.0",
+    "simple-git": "^1.41.0"
   }
 }
