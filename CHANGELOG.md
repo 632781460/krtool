@@ -1,3 +1,13 @@
+<a name="1.2.3"></a>
+## [1.2.3](f2e/ktool/compare/v1.2.2...v1.2.3) (2016-07-12)
+
+
+### Bug Fixes
+
+* **depency:** 使用--save安装依赖 ([0ab5e2d](f2e/ktool/commits/0ab5e2d))
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](f2e/ktool/compare/v1.2.1...v1.2.2) (2016-07-12)
 
