@@ -1,3 +1,14 @@
+<a name="1.2.2"></a>
+## [1.2.2](f2e/ktool/compare/v1.2.1...v1.2.2) (2016-07-12)
+
+
+### Bug Fixes
+
+* 官方包已经存在ktool ([380503a](f2e/ktool/commits/380503a))
+* **depency:** 安装simple-git依赖 ([a67f7fe](f2e/ktool/commits/a67f7fe))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](f2e/ktool/compare/v1.2.0...v1.2.1) (2016-07-12)
 
