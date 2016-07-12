@@ -1,3 +1,18 @@
+<a name="1.2.0"></a>
+# [1.2.0](f2e/ktool/compare/v1.1.0...v1.2.0) (2016-07-12)
+
+
+### Bug Fixes
+
+* resverse tags ([105034a](f2e/ktool/commits/105034a))
+
+
+### Features
+
+* readme ([becd662](f2e/ktool/commits/becd662))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](f2e/ktool/compare/v1.0.0...v1.1.0) (2016-07-12)
 
