@@ -1,13 +1,13 @@
 {
   "name": "ktool",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-	  "ktool": "./cli.js"
+    "ktool": "./cli.js"
   },
   "author": "",
   "license": "ISC",
