@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](f2e/ktool/compare/v1.2.3...v1.3.0) (2016-07-13)
+
+
+### Features
+
+* **hotfix:** 增加hotfix自定义分支 ([5a311b0](f2e/ktool/commits/5a311b0))
+
+
+
 <a name="1.2.3"></a>
 ## [1.2.3](f2e/ktool/compare/v1.2.2...v1.2.3) (2016-07-12)
 
