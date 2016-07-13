@@ -15,6 +15,6 @@ function checkoutFix() {
             }
         }
 
-        git.checkoutBranch('hotfix', tag);
+        git.checkoutBranch('_hotfix', tag);
     });
 }
