@@ -2,6 +2,8 @@ const findRoot = require('find-root');
 const rootPath = findRoot(process.cwd());
 const git = require('simple-git')(rootPath);
 const semver = require('semver');
+const program = require('commander');
+program.parse(process.argv);
 checkoutFix();
 function checkoutFix() {
     git.tags(function listTags(err, tags) {
@@ -14,7 +16,7 @@ function checkoutFix() {
                 break;
             }
         }
-
-        git.checkoutBranch('_hotfix', tag);
+        var krfix = program.args[0] || 'krfix';
+        git.checkoutBranch(krfix, tag);
     });
 }
