@@ -1,5 +1,15 @@
+<a name="1.4.1"></a>
+## [1.4.1](f2e/ktool/compare/v1.4.0...v1.4.1) (2016-07-14)
+
+
+### Bug Fixes
+
+* 添加branch命令对应的操作文件 ([c7aa833](f2e/ktool/commits/c7aa833))
+
+
+
 <a name="1.4.0"></a>
-# 1.4.0 (2016-07-14)
+# [1.4.0](f2e/ktool/compare/c29f738...v1.4.0) (2016-07-14)
 
 
 ### Bug Fixes
