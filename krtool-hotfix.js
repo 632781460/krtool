@@ -12,7 +12,7 @@ function checkoutFix() {
         tags.reverse();
         const INIT_VERSION = '0.0.0';
         var tag = INIT_VERSION;
-        for (var i = 1, l = tags.length; i < l; i++) {
+        for (var i = 0, l = tags.length; i < l; i++) {
             if (semver.valid(tags[i]) && semver.gt(tags[i], tag)) {
                 tag = tags[i];
             }
