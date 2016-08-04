@@ -16,3 +16,8 @@
 
 	krtool hotfix <branchname>
 *注*：**branchname**默认为**krfix**
+
+
+### 推送当前分支 和 最高的版本
+
+	krtool push
