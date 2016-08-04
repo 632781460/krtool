@@ -51,11 +51,11 @@ function makeChangelog(version) {
     version = argVersion || version;
     console.log('version: %s', version);
     var logStream = conventionalChangelog({
-    preset: 'angular',
-    releaseCount: 0,
-	}, {
-    version: version
-	});
+        preset: 'angular',
+        releaseCount: 0,
+    }, {
+        version: version
+    });
     logStream.pipe(changelogStream);
     logStream.on('end', function pipeEnd() {
         console.log('changelog: %s', CHANGE_LOG);

@@ -16,6 +16,7 @@ function checkoutFix() {
                 break;
             }
         }
+
         var krfeat = program.args[0] || 'feature/krfeat';
         git.checkoutBranch(krfeat, tag);
     });
