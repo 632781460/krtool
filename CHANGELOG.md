@@ -1,3 +1,18 @@
+<a name="1.6.0"></a>
+# [1.6.0](f2e/ktool/compare/v1.5.1...v1.6.0) (2016-08-04)
+
+
+### Bug Fixes
+
+* **version:** 修复版本获取错误 ([229e3c7](f2e/ktool/commits/229e3c7))
+
+
+### Features
+
+* 增加版本推送功能 ([e70e509](f2e/ktool/commits/e70e509))
+
+
+
 <a name="1.5.1"></a>
 ## [1.5.1](f2e/ktool/compare/v1.5.0...v1.5.1) (2016-07-18)
 
