@@ -18,6 +18,7 @@ const jsonfile = require('jsonfile');
 const program = require('commander');
 
 program.option('-t, --tag', '发布的标签')
+.option('-c, --count <n>', 'release 节点个数', parseInt)
 .parse(process.argv);
 
 let changelogPath = path.join(rootPath, CHANGE_LOG);
@@ -52,7 +53,7 @@ function makeChangelog(version) {
     console.log('version: %s', version);
     var logStream = conventionalChangelog({
         preset: 'angular',
-        releaseCount: 0,
+        releaseCount: program.count || 20,
     }, {
         version: version
     });
