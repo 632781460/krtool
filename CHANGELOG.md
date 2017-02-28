@@ -1,3 +1,13 @@
+<a name="1.7.0"></a>
+# [1.7.0](f2e/ktool/compare/v1.6.1...v1.7.0) (2017-02-28)
+
+
+### Features
+
+* 增加release count ([35a117d](f2e/ktool/commits/35a117d))
+
+
+
 <a name="1.6.1"></a>
 ## [1.6.1](f2e/ktool/compare/v1.6.0...v1.6.1) (2016-08-04)
 
